@@ -21,12 +21,10 @@ export function App() {
   return (
     <BrowserRouter>
       <Helmet
-        titleTemplate="%s - React Boilerplate"
-        defaultTitle="React Boilerplate"
+        titleTemplate=""
+        defaultTitle=""
         htmlAttributes={{ lang: i18n.language }}
-      >
-        <meta name="description" content="A React Boilerplate application" />
-      </Helmet>
+      ></Helmet>
 
       <Switch>
         <Route exact path="/" component={HomePage} />
